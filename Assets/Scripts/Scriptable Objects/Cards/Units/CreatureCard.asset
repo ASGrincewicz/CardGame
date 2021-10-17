@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aba7ba512ca3c42109b798648ee7c5a9, type: 3}
-  m_Name: 2_Mini Boss Thing
+  m_Name: CreatureCard
   m_EditorClassIdentifier: 
   _cardBase:
     rarity: 0

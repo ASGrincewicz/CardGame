@@ -1,10 +1,13 @@
-﻿using UnityEngine;
-using UnityEngine.UI;
+﻿using TMPro;
+using UnityEngine;
+using UnityEngine.AddressableAssets;
 using UnityEngine.EventSystems;
-using TMPro;
+using UnityEngine.ResourceManagement.AsyncOperations;
+using UnityEngine.UI;
 
 public class CardComponent : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
+    [SerializeField] protected AssetReference _cardData;
     [SerializeField] protected Image _baseImage = null;
     [SerializeField] protected Image _artImage = null;
     [SerializeField] protected Image _statsImage = null;
@@ -23,4 +26,5 @@ public class CardComponent : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
         if (_statsImage == null) return;
         _statsImage.gameObject.SetActive(false);
     }
+
 }

@@ -1022,9 +1022,10 @@ MonoBehaviour:
   _artImage: {fileID: 9096334416912592752}
   _statsImage: {fileID: 9096334418170179730}
   _titleText: {fileID: 9096334416880134495}
+  _gameplayText: {fileID: 9096334417549127561}
   _characterCardData: {fileID: 0}
-  _attackPowerImage: {fileID: 504515441}
-  _hitPointsImage: {fileID: 858158077}
+  _attackPowerText: {fileID: 868863680}
+  _hitPointsText: {fileID: 1158665101}
   _upgradeSlotImages:
   - {fileID: 557393413}
   - {fileID: 477680558}
@@ -1186,6 +1187,17 @@ MonoBehaviour:
 --- !u!114 &9096334416880134495 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4936655611545112430, guid: dedb160ea5d99451f8feb758affb52f0, type: 3}
+  m_PrefabInstance: {fileID: 4232871185586136625}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &9096334417549127561 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4936655613296232888, guid: dedb160ea5d99451f8feb758affb52f0, type: 3}
   m_PrefabInstance: {fileID: 4232871185586136625}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
