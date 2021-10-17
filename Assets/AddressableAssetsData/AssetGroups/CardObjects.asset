@@ -16,7 +16,52 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: cd336bd72b9a2489698705c0bf002934
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: f99ed390c8c134a878e80c51bdecfbdd
+    m_Address: Assets/Prefabs/ActionCard.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardPrefabs
+  - m_GUID: 69f22c53489aa47559c73a5fde1fb0d6
+    m_Address: Assets/Prefabs/CharacterCard.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardPrefabs
+  - m_GUID: a0d605a2cb342474f9b824dd71bd6a2a
+    m_Address: Assets/Prefabs/TechCard.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardPrefabs
+  - m_GUID: e5755b762c40d484a91e4795025f3361
+    m_Address: Assets/Prefabs/BossCard.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardPrefabs
+  - m_GUID: 488737d4f929b4d26b94225459429f26
+    m_Address: Assets/Prefabs/CreatureCard.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardPrefabs
+  - m_GUID: 4e1fc68f94b784ddcb049f5c5ffa564f
+    m_Address: Assets/Prefabs/EnemyCard.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardPrefabs
+  - m_GUID: dedb160ea5d99451f8feb758affb52f0
+    m_Address: Assets/Prefabs/Card_base_vertical.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardPrefabs
+  - m_GUID: b51c9bf67256a483daef269fe94649e8
+    m_Address: Assets/Prefabs/WeaponCard.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardPrefabs
+  - m_GUID: 86498f7c8281946a59a35b973c8e5cfb
+    m_Address: Assets/Prefabs/Card_base_horizontal.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardPrefabs
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 36eb48afc140049a3929ab100a254712, type: 2}
   m_SchemaSet:
