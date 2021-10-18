@@ -533,9 +533,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 9096334417551519780}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5b752affb6ef42078fde49c9878f3cb, type: 3}
+  m_Script: {fileID: 11500000, guid: 8db6608a8a9e94fb08d2a247a12ce6e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _cardData:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   _baseImage: {fileID: 9096334417551519782}
   _artImage: {fileID: 9096334416912592752}
   _statsImage: {fileID: 9096334418170179730}
@@ -569,7 +574,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4936655612976584353, guid: dedb160ea5d99451f8feb758affb52f0, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4936655612976584355, guid: dedb160ea5d99451f8feb758affb52f0, type: 3}
+      propertyPath: m_Color.b
+      value: 0.56599325
+      objectReference: {fileID: 0}
+    - target: {fileID: 4936655612976584355, guid: dedb160ea5d99451f8feb758affb52f0, type: 3}
+      propertyPath: m_Color.g
+      value: 0.6735671
+      objectReference: {fileID: 0}
+    - target: {fileID: 4936655612976584355, guid: dedb160ea5d99451f8feb758affb52f0, type: 3}
+      propertyPath: m_Color.r
+      value: 0.745283
       objectReference: {fileID: 0}
     - target: {fileID: 4936655613289059860, guid: dedb160ea5d99451f8feb758affb52f0, type: 3}
       propertyPath: m_Pivot.x
@@ -658,6 +675,22 @@ PrefabInstance:
     - target: {fileID: 4936655613289059861, guid: dedb160ea5d99451f8feb758affb52f0, type: 3}
       propertyPath: m_Name
       value: CreatureCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 5016286848562413040, guid: dedb160ea5d99451f8feb758affb52f0, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5016286848562413040, guid: dedb160ea5d99451f8feb758affb52f0, type: 3}
+      propertyPath: m_Color.b
+      value: 0.14796188
+      objectReference: {fileID: 0}
+    - target: {fileID: 5016286848562413040, guid: dedb160ea5d99451f8feb758affb52f0, type: 3}
+      propertyPath: m_Color.g
+      value: 0.59460044
+      objectReference: {fileID: 0}
+    - target: {fileID: 5016286848562413040, guid: dedb160ea5d99451f8feb758affb52f0, type: 3}
+      propertyPath: m_Color.r
+      value: 0.8962264
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 72927262760563046, guid: dedb160ea5d99451f8feb758affb52f0, type: 3}

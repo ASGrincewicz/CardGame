@@ -1,0 +1,1 @@
+﻿public enum UnitCardType { Boss, Creature, Enemy }

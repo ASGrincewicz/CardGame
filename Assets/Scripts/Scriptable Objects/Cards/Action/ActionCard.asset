@@ -9,17 +9,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d963e050a0094ca98348acf9a66a28c, type: 3}
-  m_Name: Chozo
+  m_Script: {fileID: 11500000, guid: c8d7f55be45fd4cce81396700ccfddbf, type: 3}
+  m_Name: ActionCard
   m_EditorClassIdentifier: 
   _cardBase:
-    rarity: 3
-    cardNumber: 45
-    cardName: Chozo
-    cardText: Should it be a character?
-    cardType: 2
+    rarity: 0
+    cardNumber: 0
+    cardName: 
+    cardText: 
+    cardType: 0
     cardImage: {fileID: 0}
-  _characterCard:
-    attackPower: 50
-    hitPoints: 99
-    upgradeSlots: 5
+  _actionCard:
+    actionCost: 0
