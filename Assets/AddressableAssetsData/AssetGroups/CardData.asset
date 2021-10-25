@@ -18,17 +18,17 @@ MonoBehaviour:
   m_GUID: 8adfc2d930bb247a29b60c973c5df95c
   m_SerializeEntries:
   - m_GUID: 40a8f080a4c694a1bb81c93f498881fc
-    m_Address: Assets/Scripts/Scriptable Objects/Cards/Character/Chozo.asset
+    m_Address: Chozo
     m_ReadOnly: 0
     m_SerializedLabels:
     - CardData
   - m_GUID: 5c723b4c622eb4114b6441f4f017d454
-    m_Address: Assets/Scripts/Scriptable Objects/Cards/Character/Samus.asset
+    m_Address: Samus
     m_ReadOnly: 0
     m_SerializedLabels:
     - CardData
   - m_GUID: 09cf54fc4cc804e31bcf55ec13572ea7
-    m_Address: Assets/Scripts/Scriptable Objects/Cards/Units/CreatureCard.asset
+    m_Address: CreatureCard
     m_ReadOnly: 0
     m_SerializedLabels:
     - CardData
