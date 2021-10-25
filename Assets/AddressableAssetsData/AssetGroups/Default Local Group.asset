@@ -17,49 +17,8 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 99d8a370925a0470a865ecd4d24a159a
   m_SerializeEntries:
-  - m_GUID: 6c07b49e699d84763903386ae7b8d2a2
-    m_Address: ActionCard
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - CardData
   - m_GUID: 2e1d955bd8a554ddea3bcfb25ccdeadf
     m_Address: Assets/CardGamePrototype/Art/T_Background_Card_Character_GUI.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 8fb28d0a6660c4e7c96928a03e2c93d1
-    m_Address: Assets/CardGamePrototype/Art/M_Background_Card.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 490a7aec356f741fbb8410a5adf5c8af
-    m_Address: Assets/CardGamePrototype/Cards/Character/MI_Background_Card_Character.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: a4aa70228ea9b45e6899264bf65d66d8
-    m_Address: Assets/CardGamePrototype/Art/M_Card_AttackPower.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 2b49a44b9d63b4aac8190906377a8206
-    m_Address: Assets/CardGamePrototype/Cards/Character/M_Card_Character_UpgradeSlot.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: cd56ddbc34ae846c78ba7a059bb91d51
-    m_Address: Assets/CardGamePrototype/Art/M_Card_Border.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 6ba22c609a9ef4ad9a274f4a8aa0739e
-    m_Address: Assets/CardGamePrototype/Art/M_Card_HitPoints.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: d541e0605ff86407fb058ed76e0bc7f4
-    m_Address: Assets/CardGamePrototype/Cards/Units/Enemy/MI_Card_Background_Enemy.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 3330bae18314e468cb7aaab3293b9406
-    m_Address: Assets/CardGamePrototype/Cards/Units/Creature/MI_Card_Background_Creature.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 5a4f0277d768a405ebc13f37dd559067
-    m_Address: Assets/CardGamePrototype/Cards/Units/Boss/MI_Card_Background_Boss.mat
     m_ReadOnly: 0
     m_SerializedLabels: []
   m_ReadOnly: 0

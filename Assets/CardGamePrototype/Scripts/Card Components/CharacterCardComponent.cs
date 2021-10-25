@@ -1,9 +1,7 @@
-﻿using System.Collections.Generic;
-using TMPro;
+﻿using TMPro;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
-using UnityEngine.UI;
 
 public class CharacterCardComponent : CardComponent
 {
@@ -11,7 +9,6 @@ public class CharacterCardComponent : CardComponent
     [SerializeField] private CharacterCardData _characterCardData = null;
     [SerializeField] private TMP_Text _attackPowerText = null;
     [SerializeField] private TMP_Text _hitPointsText = null;
-    [SerializeField] private List<Image> _upgradeSlotImages = new List<Image>();
 
     protected override void OnEnable()
     {
@@ -35,10 +32,8 @@ public class CharacterCardComponent : CardComponent
     {
         var thisCard = _characterCardData.Character_card;
         var thisCardBase = _characterCardData.Card_base;
-        for (int i = 0; i < thisCard.upgradeSlots; i++)
-        {
-            _upgradeSlotImages[i].gameObject.SetActive(true);
-        }
+       
+        _cardNumberText.text = $"{thisCardBase.cardNumber}/200";
         _titleText.text = thisCardBase.cardName;
         _gameplayText.text = thisCardBase.cardText;
         _attackPowerText.text = thisCard.attackPower.ToString();

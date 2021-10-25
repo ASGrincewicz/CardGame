@@ -32,7 +32,7 @@ public class UnitCardComponent : CardComponent
     {
         var thisCard = _unitCardData.Unit_card;
         var thisCardBase = _unitCardData.Card_base;
-        
+        _cardNumberText.text = $"{thisCardBase.cardNumber}/200";
         _titleText.text = thisCardBase.cardName;
         _gameplayText.text = thisCardBase.cardText;
         _attackPowerText.text = thisCard.attackPower.ToString();

@@ -41,6 +41,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2d4b7e7dc928043d98824f6f8e0d6a76, type: 2}
   - {fileID: 11400000, guid: 61fed0854bd0c4692afe046b8b954bc9, type: 2}
   - {fileID: 11400000, guid: 17d02411dc1d644ba8eadb8e377d36fd, type: 2}
+  - {fileID: 11400000, guid: a32d1e13fad8d49f78702d47fb4dc8da, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -85,6 +86,7 @@ MonoBehaviour:
     - CardPrefabs
     - CardData
     - CardImage
+    - Materials
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: f075e8cff022a41ecb451116ee536c12, type: 2}

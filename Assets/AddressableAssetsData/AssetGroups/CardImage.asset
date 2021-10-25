@@ -16,7 +16,357 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: af7ec287f97494e88ba4bd7313f67452
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: a267ff6e18ad64c7f98149bc2d4aa0d7
+    m_Address: MD_EMMI_POV_Samus_Aim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: ef0562936e3b6425b857601e0b2e6b98
+    m_Address: MD_CentralUnit_Battle
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: e3cf95318fded4c0a9b730673808e996
+    m_Address: MD_CentralUnit_Exposed_Dead
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: 8660669b84f514b32981d52060845e11
+    m_Address: MD_CentralUnit_Eye
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: 3fbbafc58636c4d01801371cf84328b2
+    m_Address: MD_ChozoRobot_Red_Xform
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: 0c5155b66cc1f44c5b2afddbbc35443e
+    m_Address: MD_EMMI_Broken
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: a6f26924e452a4fcaa1a22112d584f77
+    m_Address: MD_EMMI_Broken_Crawling
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: a9367dae150d54dd59d041f4063a0ab0
+    m_Address: MD_EMMI_Broken_Dead
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: b1d0aae4bdff1460eaa1c0b4e547f83c
+    m_Address: MD_EMMI_Green_Quad
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: afd9cf63f32f64947a84e478ac64bdb9
+    m_Address: MD_EMMI_White_Close
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: 3f622ce065c0046229ce7c6dfe59209c
+    m_Address: MD_EMMI_Yellow_POV_Chase
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: fed39949a6470425c8ab3d051dad67ff
+    m_Address: MD_Kraid_Chained
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: 061d83da9269f4e34a5df50e39489689
+    m_Address: MD_Kraid_Chained_Roar_Samus_VariaSuit
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: c21eabe04ee0d4c4c8a919f1e467670d
+    m_Address: MD_Samus_Death
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: 28c432e90c1144095b8e6efa0fb33c38
+    m_Address: MD_Samus_GravitySuit_Hand_Energy
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: 3a4a14df0677e4ebea512de0c5e4ee7a
+    m_Address: MD_Samus_POV_EMMI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: 98d601f19c90a463ea21a660049c76a1
+    m_Address: MD_Samus_POV_EMMI_Broken
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: 6d7a29cb424d94bc0b7c090118a4711c
+    m_Address: MD_Samus_PowerSuit
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: 4821901875bbb4202b46036b705d4804
+    m_Address: MD_Samus_PowerSuit_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: 857ff59b68d094134a6b952d09d96db3
+    m_Address: MD_Samus_PowerSuit_Absorb_CentralUnit_Dead
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: 8f520108598564e218440e5fb259124b
+    m_Address: MD_Samus_PowerSuit_ADAM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: d8aa04d3cd2ee429e8db3a8acbf06950
+    m_Address: MD_Samus_PowerSuit_ADAM_Upload
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: 2cf70bd2f674d4d1ca06ba0e500d533d
+    m_Address: MD_Samus_PowerSuit_Aim_EMMI_Zone
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: bb7800b70102b4ad59670b81632f6b1a
+    m_Address: MD_Samus_PowerSuit_AmmoStation_Recharge
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: c2418c87926c04149b9f9672595072f0
+    m_Address: MD_Samus_PowerSuit_Crouch_CentralUnit
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: c1d662e398c754c259d1b13904d60427
+    m_Address: MD_Samus_PowerSuit_Crouch_EMMI_Broken_Dead
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: ae15fb9d793ae4b7382a5bbae1e9c5b5
+    m_Address: MD_Samus_PowerSuit_Elevator_Dark
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: 79254cf85dc2849e8953ddb369dfb02f
+    m_Address: MD_Samus_PowerSuit_EMMI_Door
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: a18139ffae4f442f8ab7264fddbe335d
+    m_Address: MD_Samus_PowerSuit_EnergyStation_Recharge
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: 90ee3668c5e6d4038896e7073fa2c526
+    m_Address: MD_Samus_PowerSuit_LavaStation
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: 3ab8022d880b24fc5815023b21537ce7
+    m_Address: MD_Samus_PowerSuit_MapStation_Off
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: cc518612487e74edb96fc848f64e067b
+    m_Address: MD_Samus_PowerSuit_MapStation_On
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: 234c302aed36f41c8b0d8b6603c8c1d4
+    m_Address: MD_Samus_PowerSuit_MeleeCounter
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: ac3c1d95efd6f46ab8d5e1de0b0c2d68
+    m_Address: MD_Samus_PowerSuit_Missle_Firing
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: bfebbd90cc1384445b22910d843a2360
+    m_Address: MD_Samus_PowerSuit_OmegaBlaster
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: ef492ef214f4a49da97de715f62fd801
+    m_Address: MD_Samus_PowerSuit_OmegaBlaster_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: b1667e1cd05be4c02b536d985b957cc5
+    m_Address: MD_Samus_PowerSuit_OmegaStream
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: 13edcc435a6654f2bbf88113d1bbba82
+    m_Address: MD_Samus_PowerSuit_Pose_Action
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: 464f4c356dd674a10813759c07694548
+    m_Address: MD_Samus_PowerSuit_SaveStation
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: 2be713e8dd458489d906a19d0e7195f5
+    m_Address: MD_Samus_PowerSuit_TeleportStation
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: 97ec8bd879ddf47f8863b7fcebcd9ab0
+    m_Address: MD_Samus_Teleporting
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: 4bade7b3f2b9e4a59bb50007b94b71d0
+    m_Address: MD_Samus_VariaSuit_Acquired
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: e5333b81d8b2448988e97b6b726c37a6
+    m_Address: MD_Samus_VariaSuit_Kneel_KraidLair
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: a235b41adec78490b86fbbb08fa846f6
+    m_Address: MD_Samus_VariaSuit_Upgrading_Glow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: de2b1b641eefb4e16b87ba817e1b189f
+    m_Address: MD_SideView_Samus_Creatures
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: 5c66c5b67455241b891a4b487e79ee11
+    m_Address: MD_CentralUnit_Draining
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: 439de547ffab24e0fb0630990ae9252f
+    m_Address: MD_Samus_GravitySuit_CentralUnit_Dead
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: d6693090f3276489c8f8e86dc9848116
+    m_Address: MD_EMMI_Green_Dead
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: 0355cc95693804ae0a3eb2f8b97855b5
+    m_Address: MD_Samus_PowerSuit_Get_Varia
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: 538bf6aeb9cb54abe83546b55c7861b7
+    m_Address: MD_Samus_PowerSuit_EMMI_Green_Absorbing_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: 62bd0a59fda7340eba8168a3847e6d88
+    m_Address: MD_Samus_GravitySuit_EMMI_Red_Attacking
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: 878f7fdbcb61f43f2abfb34f1dbf5817
+    m_Address: MD_EMMI_Red_Dead
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: df90c901276994f109095b8c5ee284e5
+    m_Address: MD_Samus_GravitySuit_EMMI_Red_Approaching
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: 0435171ec53c44b1285dd33d06cc163d
+    m_Address: MD_Samus_GravitySuit_OmegaBlaster
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: ed4e5c3200da1409bbe38f2fa489eac6
+    m_Address: MD_Boss_PhantomCloak_Cloaked
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: 1813295919cf140b6a736638a306c96a
+    m_Address: MD_Boss_PhantomCloak_Head
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: 116d04a78e3e84276af64054ef40ec11
+    m_Address: MD_Samus_GravitySuit_EMMI_Red_Absorbing
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: aa31c573674f8488ea336b8f0ce8bb32
+    m_Address: MD_Samus_PowerSuit_Get_Varia_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: 265be1ab31181421baffcfc146cfafc0
+    m_Address: MD_Boss_PhantomCloak_OpenMouth_Samus_PowerSuit
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: e7bcb5bdda96d46a1a8c3b930bb7f5c9
+    m_Address: MD_Samus_GravitySuit_EMMI_Purple_Absorbing
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: 42af63dd078334dcd9766d22fd481bf8
+    m_Address: MD_EMMI_Yellow_Searching
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: 493c6b8bf81dc4a469edc6771ab1ecea
+    m_Address: MD_Samus_GravitySuit_EnergyAbsorb_EMMI_Red
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: 56e597f14f5c34da6b08fdb6b6a943c5
+    m_Address: MD_Kraid_Chained_Roar_Samus_Varia
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: e9a179f4852924d4097119ad11e82b0c
+    m_Address: MD_Elevator_Samus_PowerSuit
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: 4d9f0ff02b208421aafdeaddadb0bbff
+    m_Address: MD_Samus_PowerSuit_EMMI_Green_Absorbing
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: d57e0f5b0a9b848b0ada5a27440f13a0
+    m_Address: MD_ChozoStatue_Aeion_PhantomCloak_Missing
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: 9f34b693cdb1447c989473b4410d59cc
+    m_Address: MD_EMMI_Yellow_SpeedBoost
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: 6ef49f9d3104d4226b31c63911d2a771
+    m_Address: MD_Samus_GravitySuit_EMMI_Red_MeleeCounter
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: 878893e4a9d244c4297978c7697c4494
+    m_Address: MD_Boss_PhantomCloak_Samus_PowerSuit
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
+  - m_GUID: 3293daba0339a4543bdba0bcc5c4c0fd
+    m_Address: MD_Kraid_Chained_Breakout
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardImage
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 36eb48afc140049a3929ab100a254712, type: 2}
   m_SchemaSet:

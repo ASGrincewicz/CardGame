@@ -1,0 +1,16 @@
+﻿Each card should have a Number for the prefix.
+Followed by the Card Name.
+The Suffix should be an abbreviation of the card type.
+    _AC = Action Card
+    _BC = Boss Card
+    _CC = Character Card
+    _CrC = Creature Card
+    _EfC = Effect Card
+    _EnC = Enemy Card
+    _LC = Location Card
+    _TC = Tech Card
+    _WC = Weapon Card
+
+CardNumber_CardName_CardType
+
+Example: 1_Samus_CC

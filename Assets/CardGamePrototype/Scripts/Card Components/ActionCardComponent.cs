@@ -30,7 +30,7 @@ public class ActionCardComponent : CardComponent
     {
         var thisCard = _actionCardData.Action_card;
         var thisCardBase = _actionCardData.Card_base;
-
+        _cardNumberText.text = $"{thisCardBase.cardNumber}/200";
         _titleText.text = thisCardBase.cardName;
         _gameplayText.text = thisCardBase.cardText;
         _actionCostText.text = thisCard.actionCost.ToString();

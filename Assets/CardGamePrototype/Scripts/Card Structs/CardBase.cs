@@ -7,8 +7,10 @@ public struct CardBase
 {
     [Range(0,3)]
     public int rarity;
+    [Range(1,200)]
     public int cardNumber;
     public string cardName;
+    [Multiline]
     public string cardText;
     public CardType cardType;
     public Sprite cardImage;

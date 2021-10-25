@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Materials
+  m_EditorClassIdentifier: 
+  m_GroupName: Materials
+  m_Data:
+    m_SerializedData: []
+  m_GUID: f3c561ba97ddf477f89b5ab56acb6694
+  m_SerializeEntries:
+  - m_GUID: 8fb28d0a6660c4e7c96928a03e2c93d1
+    m_Address: M_Background_Card
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Materials
+  - m_GUID: 490a7aec356f741fbb8410a5adf5c8af
+    m_Address: MI_Background_Card_Character
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Materials
+  - m_GUID: a4aa70228ea9b45e6899264bf65d66d8
+    m_Address: M_Card_AttackPower
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Materials
+  - m_GUID: 2b49a44b9d63b4aac8190906377a8206
+    m_Address: M_Card_Character_UpgradeSlot
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Materials
+  - m_GUID: cd56ddbc34ae846c78ba7a059bb91d51
+    m_Address: M_Card_Border
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Materials
+  - m_GUID: 6ba22c609a9ef4ad9a274f4a8aa0739e
+    m_Address: M_Card_HitPoints
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Materials
+  - m_GUID: d541e0605ff86407fb058ed76e0bc7f4
+    m_Address: MI_Card_Background_Enemy
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Materials
+  - m_GUID: 3330bae18314e468cb7aaab3293b9406
+    m_Address: MI_Card_Background_Creature
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Materials
+  - m_GUID: 5a4f0277d768a405ebc13f37dd559067
+    m_Address: MI_Card_Background_Boss
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Materials
+  - m_GUID: f8b562ab3096f43cd9cc45b0711ccb31
+    m_Address: Assets/CardGamePrototype/Cards/Action/MI_Card_Background_Action.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Materials
+  - m_GUID: c752f7f2e38774543acdc1da8b8e28dd
+    m_Address: Assets/CardGamePrototype/Cards/Action/M_Card_ActionCost.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Materials
+  - m_GUID: 5b4ea94a2c39740609468a689e8a5e8e
+    m_Address: Assets/CardGamePrototype/Art/M_Card_Back_Logo.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Materials
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 36eb48afc140049a3929ab100a254712, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d2c03a48d80d34ccb85a71037dea5c76, type: 2}
+    - {fileID: 11400000, guid: 867b7a465a4bd491e85d317b797beed2, type: 2}

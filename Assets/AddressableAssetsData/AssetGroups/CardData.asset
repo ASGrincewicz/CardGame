@@ -18,17 +18,32 @@ MonoBehaviour:
   m_GUID: 8adfc2d930bb247a29b60c973c5df95c
   m_SerializeEntries:
   - m_GUID: 40a8f080a4c694a1bb81c93f498881fc
-    m_Address: Chozo
+    m_Address: 2_RavenBeak_CC
     m_ReadOnly: 0
     m_SerializedLabels:
     - CardData
   - m_GUID: 5c723b4c622eb4114b6441f4f017d454
-    m_Address: Samus
+    m_Address: 1_Samus_CC
     m_ReadOnly: 0
     m_SerializedLabels:
     - CardData
   - m_GUID: 09cf54fc4cc804e31bcf55ec13572ea7
-    m_Address: CreatureCard
+    m_Address: 4_Creature_CrC
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardData
+  - m_GUID: 6c07b49e699d84763903386ae7b8d2a2
+    m_Address: 3_CoolAction_AC
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardData
+  - m_GUID: e326e481168304cd599177c194463375
+    m_Address: Assets/CardGamePrototype/Cards/Units/Enemy/5_EMMI_EnC.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardData
+  - m_GUID: 76493a0a56ac4487d9d0c609784cfdbf
+    m_Address: Assets/CardGamePrototype/Cards/Units/Boss/CardData/6_Kraid_BC.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - CardData
