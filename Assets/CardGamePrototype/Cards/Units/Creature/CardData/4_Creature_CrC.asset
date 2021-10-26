@@ -16,10 +16,9 @@ MonoBehaviour:
     rarity: 0
     cardNumber: 4
     cardName: Creature
-    cardText: Tet Here
+    cardText: Text here.
     cardType: 3
     cardImage: {fileID: 21300000, guid: 1813295919cf140b6a736638a306c96a, type: 3}
   _unitCard:
     attackPower: 15
     hitPoints: 50
-    unitCardType: 1

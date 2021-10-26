@@ -77,6 +77,16 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Materials
+  - m_GUID: eb5f465fb309141e89ec0e4d957dfd10
+    m_Address: Assets/CardGamePrototype/Art/M_Board.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Materials
+  - m_GUID: 0b01f957b269d44f8985bfd8a30cf542
+    m_Address: Assets/CardGamePrototype/Art/M_Card_Front_Gloss.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Materials
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 36eb48afc140049a3929ab100a254712, type: 2}
   m_SchemaSet:

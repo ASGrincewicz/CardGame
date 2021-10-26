@@ -10,12 +10,11 @@ public struct UnitCard
     public int attackPower;
     [Range(0, 100)]
     public int hitPoints;
-    public UnitCardType unitCardType;
+    //public UnitCardType unitCardType;
 
-    public UnitCard(int attackPower, int hitPoints, UnitCardType type)
+    public UnitCard(int attackPower, int hitPoints)
     {
         this.attackPower = attackPower;
         this.hitPoints = hitPoints;
-        unitCardType = type;
     }
 }

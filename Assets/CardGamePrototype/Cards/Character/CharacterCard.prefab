@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1606044436649134495, guid: de52fbd00a1864139bab8b0a64d110ef, type: 3}
+      propertyPath: m_text
+      value: Character
+      objectReference: {fileID: 0}
     - target: {fileID: 5496129753173036318, guid: de52fbd00a1864139bab8b0a64d110ef, type: 3}
       propertyPath: m_Material
       value: 
@@ -77,17 +81,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &8332649141604931259 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5496129753203428145, guid: de52fbd00a1864139bab8b0a64d110ef, type: 3}
-  m_PrefabInstance: {fileID: 4604271852346809738}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1014650565768830176 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3598775820912083306, guid: de52fbd00a1864139bab8b0a64d110ef, type: 3}
@@ -97,6 +90,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8332649141604931259 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5496129753203428145, guid: de52fbd00a1864139bab8b0a64d110ef, type: 3}
+  m_PrefabInstance: {fileID: 4604271852346809738}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &8332649139589566573 stripped
@@ -162,7 +166,6 @@ MonoBehaviour:
     m_EditorAssetChanged: 0
   _baseImage: {fileID: 8332649141568245908}
   _artImage: {fileID: 1014650565768830176}
-  _statsImage: {fileID: 0}
   _cardNumberText: {fileID: 8332649141120970620}
   _titleText: {fileID: 8332649141604931259}
   _gameplayText: {fileID: 8332649139589566573}

@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c79561516044b4b80b4b6a78dfeafcd1, type: 3}
-  m_Name: 5_E.M.M.I
+  m_Name: 5_EMMI_EnC
   m_EditorClassIdentifier: 
   _cardBase:
     rarity: 3
@@ -22,4 +22,3 @@ MonoBehaviour:
   _unitCard:
     attackPower: 30
     hitPoints: 60
-    unitCardType: 2

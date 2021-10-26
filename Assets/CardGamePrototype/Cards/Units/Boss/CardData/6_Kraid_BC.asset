@@ -18,8 +18,7 @@ MonoBehaviour:
     cardName: Kraid
     cardText: Kraid Stuff.
     cardType: 1
-    cardImage: {fileID: 21300000, guid: 3293daba0339a4543bdba0bcc5c4c0fd, type: 3}
+    cardImage: {fileID: 21300000, guid: fed39949a6470425c8ab3d051dad67ff, type: 3}
   _unitCard:
     attackPower: 50
     hitPoints: 100
-    unitCardType: 0
