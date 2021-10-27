@@ -1,0 +1,4 @@
+repository "Card Game@local"
+  path "/"
+    br "/main"
+    co "/main"

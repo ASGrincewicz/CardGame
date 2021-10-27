@@ -21,6 +21,10 @@ MonoBehaviour:
     m_Address: Assets/CardGamePrototype/Art/T_Background_Card_Character_GUI.png
     m_ReadOnly: 0
     m_SerializedLabels: []
+  - m_GUID: de52fbd00a1864139bab8b0a64d110ef
+    m_Address: Assets/CardGamePrototype/Prefabs/BaseCard.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 36eb48afc140049a3929ab100a254712, type: 2}
   m_SchemaSet:

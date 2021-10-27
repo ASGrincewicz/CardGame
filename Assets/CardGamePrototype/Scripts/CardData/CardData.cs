@@ -7,7 +7,6 @@ public abstract class CardData : ScriptableObject
 
     protected virtual void OnValidate()
     {
-        var modifiedCardName = _cardBase.cardName.Replace(" ", "_");
-        name = $"{_cardBase.cardNumber}_{modifiedCardName}";
+       
     }
 }

@@ -16,7 +16,8 @@ MonoBehaviour:
     rarity: 3
     cardNumber: 5
     cardName: E.M.M.I
-    cardText: E.M.M.I. ability
+    cardText: "<b>Location Restriction: E.M.M.I. Zone</b>\nIf the <i>Central Unit</i>
+      \nfor this E.M.M.I. is destroyed, this E.M.M.I. is <i>Deactivated</i>."
     cardType: 5
     cardImage: {fileID: 21300000, guid: 0c5155b66cc1f44c5b2afddbbc35443e, type: 3}
   _unitCard:
