@@ -1,18 +1,25 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.EventSystems;
 
 public class PlayerManager : MonoBehaviour
 {
+    [SerializeField] private List<Transform> _handSpots = new List<Transform>();
+    [SerializeField] private List<CardData> _handData = new List<CardData>();
     [SerializeField] private DeckManager _deckManager;
-    [SerializeField] private int _handSize = 4;
+    [SerializeField] private int _handSize = 3;
     [SerializeField] private GameObject _selectedCard = null;
     [SerializeField] private LayerMask _clickMask;
     [SerializeField] private string _cardTag = "Card";
     [SerializeField] private Camera _mainCamera;
-   
+    public int deckSize;
+    public bool isHandFull = false;
 
+    private void Start()
+    {
+        _deckManager = _deckManager.GetComponent<DeckManager>();
+        deckSize = _deckManager.Deck.Deck.deckList.Count;
+       
+    }
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
@@ -30,9 +37,16 @@ public class PlayerManager : MonoBehaviour
 
     public void DrawHand()
     {
-        //Check deck manager for remaining cards in deck
-        //if remaining cards > 0
-        //Draw cards
+        if (isHandFull) return;
+        for (int i = 0; i < _handSize; i++)
+        {
+            _handData.Add(_deckManager.RuntimeDeckList[i]);
+            
+        }
+        for(int i = 0; i < _handData.Count; i++)
+            _deckManager.RuntimeDeckList.Remove(_handData[i]);
+        if (_handData.Count == _handSize)
+            isHandFull = true;
     }
 
     public void PlayCard()

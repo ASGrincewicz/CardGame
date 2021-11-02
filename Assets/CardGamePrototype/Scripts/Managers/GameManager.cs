@@ -10,12 +10,10 @@ public class GameManager : MonoBehaviour
     private Transform _transform;
     private float _deltaTime;
 
-    private void Start()
-    {
-        //_transform = _cardToRotate.transform;
-        //_cardToRotate.transform.position = _cardSpot.transform.position;
-        //_cardToRotate.transform.rotation = _cardSpot.transform.rotation;
-    }
+    //private void Start()
+    //{
+       
+    //}
 
     private void Update()
     {
@@ -25,7 +23,5 @@ public class GameManager : MonoBehaviour
         {
             card.transform.Rotate(_rotationVector * _deltaTime);
         }
-        //_transform.position = Vector3.Lerp(_transform.position, _cardSpot.position, _deltaTime);
-        //_transform.Rotate(_rotationVector * _deltaTime);
     }
 }

@@ -63,6 +63,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CharacterCard
       objectReference: {fileID: 0}
+    - target: {fileID: 6028863817345215634, guid: de52fbd00a1864139bab8b0a64d110ef, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de52fbd00a1864139bab8b0a64d110ef, type: 3}
 --- !u!1 &7804592374057218328 stripped
@@ -159,16 +163,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c2fe0dc8e9c144f48b8ea4d5530304a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _cardData:
-    m_AssetGUID: 
-    m_SubObjectName: 
-    m_SubObjectType: 
-    m_EditorAssetChanged: 0
   _baseImage: {fileID: 8332649141568245908}
   _artImage: {fileID: 1014650565768830176}
   _cardNumberText: {fileID: 8332649141120970620}
   _titleText: {fileID: 8332649141604931259}
   _gameplayText: {fileID: 8332649139589566573}
-  _characterCardData: {fileID: 0}
+  _characterCardData: {fileID: 11400000, guid: 40a8f080a4c694a1bb81c93f498881fc, type: 2}
   _attackPowerText: {fileID: 981555796554182948}
   _hitPointsText: {fileID: 981555795165473897}

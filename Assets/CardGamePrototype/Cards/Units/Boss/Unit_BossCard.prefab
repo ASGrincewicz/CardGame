@@ -15,6 +15,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Unit_BossCard
       objectReference: {fileID: 0}
+    - target: {fileID: 4096976376484086789, guid: 271b52007340440c2a24e579f614156a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4096976376484086790, guid: 271b52007340440c2a24e579f614156a, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -59,6 +63,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7837280040427650110, guid: 271b52007340440c2a24e579f614156a, type: 3}
+      propertyPath: _unitCardData
+      value: 
+      objectReference: {fileID: 11400000, guid: 76493a0a56ac4487d9d0c609784cfdbf, type: 2}
     - target: {fileID: 9023068618646593800, guid: 271b52007340440c2a24e579f614156a, type: 3}
       propertyPath: m_text
       value: Boss

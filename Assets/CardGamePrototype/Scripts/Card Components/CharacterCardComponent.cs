@@ -9,24 +9,8 @@ public class CharacterCardComponent : CardComponent
     [SerializeField] private CharacterCardData _characterCardData = null;
     [SerializeField] private TMP_Text _attackPowerText = null;
     [SerializeField] private TMP_Text _hitPointsText = null;
+    public CharacterCardData CharacterCardData { get => _characterCardData; set => _characterCardData = value; }
 
-    protected override void OnEnable()
-    {
-        if (_cardData == null) return;
-        Addressables.LoadAssetAsync<CharacterCardData>(_cardData).Completed += CardLoadDone;
-    }
-
-    protected override void OnDisable()
-    {
-        Addressables.LoadAssetAsync<CharacterCardData>(_cardData).Completed -= CardLoadDone;
-    }
-
-    private void CardLoadDone(AsyncOperationHandle<CharacterCardData> card)
-    {
-        if (card.Status != AsyncOperationStatus.Succeeded) return;
-        _characterCardData = card.Result;
-        PopulateCardInfo();
-    }
 
     protected override void PopulateCardInfo()
     {

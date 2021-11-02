@@ -1,32 +1,13 @@
 ﻿using TMPro;
 using UnityEngine;
-using UnityEngine.AddressableAssets;
-using UnityEngine.ResourceManagement.AsyncOperations;
 
 public class UnitCardComponent : CardComponent
 {
     [SerializeField] private UnitCardData _unitCardData = null;
     [SerializeField] private TMP_Text _attackPowerText = null;
     [SerializeField] private TMP_Text _hitPointsText = null;
+    public UnitCardData UnitCardData { get => _unitCardData; set => _unitCardData = value; }
 
-
-    protected override void OnEnable()
-    {
-        if (_cardData == null) return;
-        Addressables.LoadAssetAsync<UnitCardData>(_cardData).Completed += CardLoadDone;
-    }
-
-    protected override void OnDisable()
-    {
-        Addressables.LoadAssetAsync<UnitCardData>(_cardData).Completed -= CardLoadDone;
-    }
-
-    private void CardLoadDone(AsyncOperationHandle<UnitCardData> card)
-    {
-        if (card.Status != AsyncOperationStatus.Succeeded) return;
-        _unitCardData = card.Result;
-        PopulateCardInfo();
-    }
 
     protected override void PopulateCardInfo()
     {
