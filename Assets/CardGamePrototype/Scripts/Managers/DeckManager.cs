@@ -30,7 +30,7 @@ public class DeckManager : MonoBehaviour
     //[SerializeField] private int _cardCount = 0;
     //private WaitForSeconds _cardDelay;
     public DeckData Deck { get => _deckData; set => _deckData = value; }
-    public List<CardData> RuntimeDeckList { get => _runtimeDeckList; set => _runtimeDeckList = value; }
+    public List<GameObject> DeckPool { get => _deckPool; set => _deckPool = value; }
     //public List<IResourceLocation> CardLocations { get => cardLocations; set => cardLocations = value; }
 
     private void Start()
@@ -38,7 +38,7 @@ public class DeckManager : MonoBehaviour
         foreach (var card in _deckData.Deck.deckList)
         {
             _runtimeDeckList.Add(card);
-            //cardLocations.Add(card);
+           
             _deckPool.Add(CreateCardObjects(card));
         }
         
